@@ -1,0 +1,55 @@
+@media screen and (max-width: 780px) {
+	.container {
+		width: 90%;
+	}
+
+	.btns_public{
+		width: 40%;
+	}
+
+	.lnr {
+		font-family: Linear;
+		float: right;
+		font-size: 45px;
+		display: block;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.heading{
+		margin-top: 50px;
+    }
+	.copyright{
+		float: none;
+		text-align: center;
+		width: 100%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.copyright img{
+		float: none;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 530px) {
+
+
+	.btns_public{
+		width: 50%;
+	}
+
+}
+
+@media screen and (max-width: 388px) {
+
+	.btn__start {
+		font-size: 20px;
+		width: 220px;
+		background-position: bottom -24px right -25px;
+		margin-left: auto;
+	}
+}

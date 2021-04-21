@@ -1,0 +1,394 @@
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:5px;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:black;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 0px;
+border-radius: 0px;
+background-color:#3947A2;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color:#1F2A75;
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:4px;
+height:0px
+}
+::-webkit-scrollbar{
+width: 4px;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Bold.ttf');
+	font-weight: bold;
+	font-style: bold;
+}
+@font-face {
+	font-family: 'Linear';
+	src: url('../fonts/Linearicons-Free.ttf');
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Medium.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy-Light';
+	src: url('../fonts/Gilroy-Light.ttf');
+}
+
+body {
+	font-family: Gilroy;
+	font-style: bold;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #F5F5F5;
+	background-color: black;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header .show_menu {
+	float: none;
+	display: flex;
+	flex-direction: column;
+}
+
+
+header .show_menu a {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	text-align: center;
+}
+.change__heading{
+	display: flex;
+	flex-direction: column;
+}
+
+.show_lnr {
+	text-align: end;
+}
+
+.lnr {
+	display: none;
+}
+
+.show_logo {
+	display: none;
+}
+
+.bg{
+  	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url(../img/bg.png) no-repeat center top / cover
+ black;
+ 	background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+}
+
+.container{
+	max-width: 1406px;
+	margin: 0 auto;
+}
+.heading{
+	margin-top: 76px;
+	padding-bottom: 55px;
+
+}
+.l__text{
+	float: right;
+	text-align: left;
+	margin-left: 10px;
+	margin-top:-5px; 
+}
+.logo__text{
+	float: left;
+	-moz-transition: all 0.45s ease-out;
+	-o-transition: all 0.45s ease-out;
+	-webkit-transition: all 0.45s ease-out;
+}
+.logo__text:hover{
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	-o-transform: scale(0.95);
+}
+.l__text {
+  color: #FFF;
+}
+.BOBR{
+	font-size: 36px;
+	margin:0px;
+
+}
+.ROLEPLAY{
+	font-family: Gilroy;
+	font-weight: normal;
+	font-size: 14px;
+	letter-spacing:3.5px;
+	margin:0px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+	margin-top: 8px;
+	float: right;
+}
+
+.menu a:hover {
+	  color: #FFF;
+	  -moz-transition: all 0.45s ease-out;
+	  -o-transition: all 0.45s ease-out;
+	  -webkit-transition: all 0.45s ease-out;
+}
+
+.menu a {
+	font-family: Gilroy;
+	font-weight: normal;
+	color: #707070;
+	text-decoration: none;
+	font-size: 14px;
+	float: left;
+	display: block;
+	margin-right: 31px;
+}
+
+.menu .btn__main__page{
+	color: #FFFFFF;
+}
+
+.button_play{
+	transition: all 0.3s ease;
+	background: #3947A2;
+	border-radius: 7px;
+	display: block;
+	width: 140px;
+	padding: 10px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	margin-top: -10px;
+
+	-moz-transition: all 0.45s ease-out;
+	-o-transition: all 0.45s ease-out;
+	-webkit-transition: all 0.45s ease-out;
+}
+
+.menu .button_play {
+  	color: #FFF;
+  	font-style: normal;
+}
+
+.button_play:hover{
+	  background: #FFF;
+	  -webkit-transform: scale(1.02);
+	  -moz-transform: scale(1.02);
+	  -o-transform: scale(1.02);
+}
+
+.menu .button_play:hover{
+  	color: #3947A2;
+  	font-weight: bold;
+}
+
+.section__main {
+	margin-top: 140px;
+	float: left;
+}
+
+.main__container {
+	margin-top: 38px;
+}
+
+.main__heading {
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 450px;
+}
+
+.main__heading span {
+	font-family: Gilroy-Light;
+	font-weight: lighter;
+}
+
+.main__content {
+	opacity: 50%;
+	font-size: 18px;
+	font-family: Gilroy-Light;
+	font-weight: lighter;
+	line-height: 1.4;
+	width: 450px;
+	margin: 31px 0 67px 0;
+}
+
+.btn__start {
+	transition: all 0.3s ease;
+	background: #3947A2;
+	background-image: url("../img/GamePad.png");
+	background-position: bottom -35px right -40px;
+	background-repeat: no-repeat;
+	background-size: 40% auto;
+	border-radius: 10px;
+	display: block;
+	width: 330px;
+	padding: 19px 0px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+
+	-moz-transition: all 0.45s ease-out;
+	-o-transition: all 0.45s ease-out;
+	-webkit-transition: all 0.45s ease-out;
+}
+
+.btn__start:hover {
+	background: #FFF;
+	background-image: url("../img/GamePad_active.png");
+	background-position: bottom -35px right -40px;
+	background-repeat: no-repeat;
+	background-size: 40% auto;
+	color: #3947A2;
+
+	-webkit-transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-o-transform: scale(1.02);
+}
+
+.btns_public a{
+	transition: all 0.3s ease;
+	text-decoration: none;
+	float: left;
+	display: flex;
+	margin-right: 31px;
+	margin-top: 80px; 
+	filter: brightness(.3);
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	-webkit-transition: all 0.6s ease-out;
+}
+
+.btns_public a:hover{
+	filter: brightness(1);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.news__content {
+	margin: 0 auto;
+	padding: 0;
+	width: 450px;
+	float: right;
+}
+
+.news__box a{
+	background-image: url("../img/NewsImg.png");
+	float: right;
+	height: 234px;
+	width: 450px;
+	margin-bottom: 30px; 
+	display: block;
+
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	-webkit-transition: all 0.6s ease-out;
+}
+
+.news__box a:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+.link__news {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.date {
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #3947A2;
+	margin: 30px 0 0 47px;
+	border-radius: 5px;
+	display: block;
+	width: 121px;
+	text-align: center;
+	padding: 11px 0;
+	color: #FFF;
+}
+
+.category {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 32px;
+	margin-left: 47px;
+}
+
+.content {
+	margin: 12px 47px 0 47px;
+	font-family: Gilroy-Light;
+	font-weight: lighter;
+	font-weight: normal;
+	font-size: 14px;
+	opacity: .5;
+}
+
+.footering{
+	
+	margin-top: 61px;
+	margin-bottom: 30px;
+}
+
+.copyright{
+	float: right;
+}
+
+.copyright p{
+	font-size: 12px;
+	font-family: Gilroy;
+	font-weight: normal;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+.copyright img{
+	float: right; 
+	margin-top: -12px;
+	filter: brightness(.3);
+}
+.copyright img:hover{
+	filter: brightness(1);
+}

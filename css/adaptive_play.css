@@ -1,0 +1,215 @@
+@media screen and (min-width: 1920px) {
+    .number_step {
+        font-size: 16px;
+        line-height: 22px;
+        width: 27px;
+        height: 27px;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+	.container {
+		width: 90%;
+    }
+    .steps_container {
+        height: 2%;
+        width: 80%;
+        flex-direction: row;
+    }
+
+    .line_step {
+        height: 5px;
+        width: 23.25vw;
+    }
+    
+    section .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;/* По горизонтали */
+        align-content: space-between;/* По расстоянию между элементами */
+        align-items: center;/* По вертикали */
+    }
+
+    .left_content {
+        height: 98%;
+        float: none;
+    }
+
+    .number_step {
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+        line-height: 23px;
+        float: none;
+    }
+
+    
+    .setup_container h1 { 
+        font-size: 3.82vw;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .left_content h1 {
+        font-size: 3.79vw;
+    }
+    
+    .txt_right p{
+        font-size: 1.72vw;
+    }
+
+    .buttons_download a{
+        margin-bottom: 1.3vw;
+        width: 24vw;
+        padding: 1.4vw 0;
+    }
+    .txt_right2 {
+        width: 32vw;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .txt_right {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        overflow: scroll;
+    }
+
+    .lnr {
+        font-family: Linear;
+        float: right;
+        font-size: 45px;
+        display: block;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .heading{
+        margin-top: 50px;
+    }
+
+    .txt_right {
+        display: inline-block;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .left_content {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+	.copyright{
+		float: none;
+		text-align: center;
+		width: 100%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.copyright img{
+		float: none;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.mouse_scroll{
+		display: none;
+    }
+    
+    .left_content h1 {
+        font-size: 6.79vw;
+        text-align: center;
+    }
+    
+    .txt_right p{
+        font-size: 4.22vw;
+    }
+
+    .video_container iframe{
+        width: 70.28vw;
+        height: 41.09vw;
+        margin-bottom: 4%;
+    }
+
+    .txt_right2 {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .txt_right2 h1{
+        margin-bottom: 2%;
+    }
+
+    .left_content img {
+        width: 70.28vw;
+        height: 47.09vw;
+        margin-bottom: 4%;
+    }
+    
+    .buttons_download a{
+        margin-bottom: 1.3vw;
+        width: 50%;
+        padding: 2.7% 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footering {
+        margin-top: 5%;
+    }
+
+    .setup_container {
+        justify-content: center;/* По горизонтали */
+        align-content: space-between;/* По расстоянию между элементами */
+        align-items: center;/* По вертикали */
+    }
+    
+    .setup_container h1{
+        font-size: 6.79vw;
+        margin-bottom: 4%;
+    }
+    
+    .setup_container img {
+        width: 70.28vw;
+        height: 55.5vw;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 590px) {
+    .buttons_download a {
+        margin-bottom: 4%;
+        width: 65%;
+        padding: 4.5% 0;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .left_content img {
+        display: none;
+    }
+
+    .left_content {
+        justify-content: center;
+    }
+
+    .txt_right2 {
+        padding-top: 20px;
+        height: 100%;
+    }
+
+    .txt_right2 h1{
+        margin-bottom: 10px;
+    }
+
+    .buttons_download a {
+        margin-bottom: 5%;
+        width: 80%;
+        padding: 4.7% 0;
+    }
+}
