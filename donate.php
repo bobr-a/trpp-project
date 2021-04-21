@@ -118,7 +118,7 @@ function setupPage($login, $email, $sum, $result)
 								data-action='submit' class="oplata g-recaptcha" 
 								id="send-money-form" type="submit">Перейти к оплате
 							</button>
-							<a class="qiwi" href="/qiwi">Как оплатить через <span class="txtqiwi">QIWI</span>?</a>
+							<a class="qiwi" href="/qiwi.php">Как оплатить через <span class="txtqiwi">QIWI</span>?</a>
 						</div>
 					</form>
 				</div>
