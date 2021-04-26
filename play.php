@@ -42,7 +42,7 @@
     <section style="height: 799px;">
         <div class="container clearfix">
             <div class="left_content video_container">
-                <iframe src="https://www.youtube.com/embed/wDsU4H2w48k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VH6fpmVQGs0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div class="txt_right">
                     <h1>Начать игру - легко!</h1>
                     <p>Достаточно посмотреть видео</p>

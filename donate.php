@@ -95,7 +95,7 @@ function setupPage($login, $email, $sum, $result)
 							</span>
 						</p>
 					</div>
-					<form id="signup-form" class='signup-form' action='https://mtabobr.online/donate' method="post" accept-charset="UTF-8">
+					<form id="signup-form" class='signup-form' action='https://test.mtabobr.ru/donate' method="post" accept-charset="UTF-8">
 						<div class="block_gray">
 							<p class="bl_gray"></p>
 							<div class="input_donate">
