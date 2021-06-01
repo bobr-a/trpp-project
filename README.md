@@ -59,5 +59,5 @@
 ### Группа ИКБО-18-19
 * Макеев Алексей [bobr-a](https://github.com/bobr-a) - создание сайта (css,html,js,php), разработка дизайна
 * Журавлев Александр [puplodik](https://github.com/puplodik) - функциональное требование, редактирование readme
-* Кузнецов Илья [Aktonus](https://github.com/Aktonus)
-* Савкин Дмитрий [bydywiigenii](https://github.com/bydywiigenii)
+* Кузнецов Илья [Aktonus](https://github.com/Aktonus) - функциональное требование, сборщика пакета Phing
+* Савкин Дмитрий [bydywiigenii](https://github.com/bydywiigenii) - сборщика пакета Phing
