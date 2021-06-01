@@ -48,6 +48,6 @@
 ## Участники
 
 * Макеев Алексей [bobr-a](https://github.com/bobr-a) - создание сайта (css,html,js,php), разработка дизайна
-* Журавлев Александр [puplodik](https://github.com/puplodik) - Функциональное требование, редактирование readme
+* Журавлев Александр [puplodik](https://github.com/puplodik) - функциональное требование, редактирование readme
 * Кузнецов Илья
 * Савкин Дмитрий
