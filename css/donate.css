@@ -563,11 +563,7 @@ input::placeholder {
 	-o-transition: all 0.4s ease-out;
 	-webkit-transition: all 0.4s ease-out;
 }
-.change_license:hover{
-	-webkit-transform: scale(1.025);
-	-moz-transform: scale(1.025);
-	-o-transform: scale(1.025);
-}
+
 .buy_license{
 	background: #3947A2;
 	color: #fff;
