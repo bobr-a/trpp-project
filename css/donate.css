@@ -646,11 +646,7 @@ input::placeholder {
 	-o-transition: all 0.4s ease-out;
 	-webkit-transition: all 0.4s ease-out;
 }
-.change_auto:hover{
-	-webkit-transform: scale(1.025);
-	-moz-transform: scale(1.025);
-	-o-transform: scale(1.025);
-}
+
 .buy_auto{
 	background: #3947A2;
 	color: #fff;
@@ -672,11 +668,7 @@ input::placeholder {
 	-webkit-transition: all 0.45s ease-out;
 
 }
-.buy_auto:hover{
-	-webkit-transform: scale(1.025);
-	-moz-transform: scale(1.025);
-	-o-transform: scale(1.025);
-}
+
 .change_vb{
 	background: #1F2A75;
 	background-image: url(../img/change_nick.png);
@@ -701,11 +693,7 @@ input::placeholder {
 	-o-transition: all 0.4s ease-out;
 	-webkit-transition: all 0.4s ease-out;
 }
-.change_vb:hover{
-	-webkit-transform: scale(1.025);
-	-moz-transform: scale(1.025);
-	-o-transform: scale(1.025);
-}
+
 .buy_vb{
 	background: #3947A2;
 	color: #fff;
@@ -727,11 +715,7 @@ input::placeholder {
 	-webkit-transition: all 0.45s ease-out;
 
 }
-.buy_vb:hover{
-	-webkit-transform: scale(1.025);
-	-moz-transform: scale(1.025);
-	-o-transform: scale(1.025);
-}
+
 .change_slot{
 	background: #1F2A75;
 	background-image: url(../img/change_nick.png);
@@ -754,11 +738,7 @@ input::placeholder {
 	-o-transition: all 0.4s ease-out;
 	-webkit-transition: all 0.4s ease-out;
 }
-.change_slot:hover{
-	-webkit-transform: scale(1.025);
-	-moz-transform: scale(1.025);
-	-o-transform: scale(1.025);
-}
+
 .buy_slot{
 	background: #3947A2;
 	color: #fff;
@@ -779,11 +759,7 @@ input::placeholder {
 	-o-transition: all 0.45s ease-out;
 	-webkit-transition: all 0.45s ease-out;
 }
-.buy_slot:hover{
-	-webkit-transform: scale(1.025);
-	-moz-transform: scale(1.025);
-	-o-transform: scale(1.025);
-}
+
 
 .container_up a:hover{
 	background: #FFFFFF;
