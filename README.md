@@ -101,6 +101,6 @@
 ## Участники
 ### Группа ИКБО-18-19
 * Макеев Алексей [bobr-a](https://github.com/bobr-a) - создание сайта (css,html,js,php), разработка дизайна
-* Журавлев Александр [puplodik](https://github.com/puplodik) - функциональное требование, редактирование readme
+* Журавлев Александр [puplodik](https://github.com/puplodik) - функциональное требование
 * Кузнецов Илья [Aktonus](https://github.com/Aktonus) - сборщик пакета Phing
 * Савкин Дмитрий [bydywiigenii](https://github.com/bydywiigenii) - запуск сайта на OpenServer
